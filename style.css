@@ -1,8 +1,15 @@
+* {
+    color: rgb(76, 69, 164);
+}
+
 h1, h2 {
     background-color: #616367;
     color: rgb(8, 175, 44);
 }
 
-* {
-    color: rgb(76, 69, 164);
+h3 {
+    color: red;
+}
+h4 {
+    color: blue;
 }
