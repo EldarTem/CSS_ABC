@@ -3,10 +3,19 @@
     color: rgb(76, 69, 164);
 }
 
-.one {
-    color: red;
+.eee {
+    font-size: 20px;
 }
 
-.two {
-    color: green;
+.zzz {
+    font-size: 30px;
+}
+
+.ggg {
+    font-size: 35px;
+}
+
+.eee, .zzz, .ggg {
+    text-align: center;
+    font-family: Arial;
 }
