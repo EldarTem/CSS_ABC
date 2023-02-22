@@ -3,6 +3,10 @@
     color: rgb(76, 69, 164);
 }
 
-.xxx {
-    font-size: 30px;
-    }
+.one {
+    color: red;
+}
+
+.two {
+    color: green;
+}
