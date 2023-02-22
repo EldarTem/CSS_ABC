@@ -3,19 +3,14 @@
     color: rgb(76, 69, 164);
 }
 
-.eee {
-    font-size: 20px;
+.header {
+    color: red;
 }
 
-.zzz {
+h1 .header {
+font-size: 40px;
+}
+
+h2 .header {
     font-size: 30px;
-}
-
-.ggg {
-    font-size: 35px;
-}
-
-.eee, .zzz, .ggg {
-    text-align: center;
-    font-family: Arial;
 }
