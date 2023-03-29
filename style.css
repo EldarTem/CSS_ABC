@@ -3,29 +3,27 @@
     color: rgb(76, 69, 164);
 }
 
-a:link {
-    color: #1959b9;
- }
-
- a:visited {
-    color: #47da42;
- }
-
- a:hover {
-    color: #902505;
-    text-decoration: none;
- }
-
- a:active {
-    color: #000000;
- }
-
- a:link, a:visited, a:active  {
-    color: #2c65bc;
-    text-decoration: none;
- }
-
- a:hover {
-    color: #9f2b08;
-    text-decoration: underline;
- }
+a {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+}
+a.zzz {
+	color: red;
+}
+a.zzz:hover {
+	text-decoration: none;
+}
+#block a.zzz {
+	color: red;
+}
+#block a.zzz:hover {
+	text-decoration: none;
+}
+.block a.zzz {
+	color: red;
+}
+.block a.zzz:hover {
+	text-decoration: none;
+}
