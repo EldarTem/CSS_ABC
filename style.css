@@ -3,6 +3,6 @@
     color: rgb(76, 69, 164);
 }
 
-#elem ~ li {
-    color: #d105ec;
- }
+main * p {
+	color: red;
+}
