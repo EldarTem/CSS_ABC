@@ -2,7 +2,6 @@
     background-color: #dbd3d3;
     color: rgb(76, 69, 164);
 }
-
 .one {
     width: 200px;
     height: 200px;
@@ -10,8 +9,6 @@
     border-radius: 30px;
     
 }
- 
-
 .two {
     width: 200px;
     height: 200px;
@@ -19,8 +16,6 @@
     border-radius: 30px;
     background-color: #15bb15;
 }
-
- 
 .three {
     width: 200px;
     height: 200px;
