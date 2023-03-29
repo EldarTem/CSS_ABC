@@ -3,6 +3,37 @@
     color: rgb(76, 69, 164);
 }
 
-main * p {
-	color: red;
+* [title] {
+    color: red;
+ }
+
+
+
+ p[title] {
+    color: blue;
+ }
+
+
+ p[title=привет] {
+    color:green;
+ }
+
+ 
+ a[href^="http://"]{
+    color: black;
+ }  
+
+
+ a[href*=".html"] {
+    color: yellow;
+ }
+
+
+ p[title~=привет] {
+    color: purple;
+ }
+
+
+ [class|="top-"]{
+    color: orange;
 }
