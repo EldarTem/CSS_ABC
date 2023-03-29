@@ -3,9 +3,6 @@
     color: rgb(76, 69, 164);
 }
 
-div {
-	width: 100px;
-	height: 100px;
-	margin-bottom: 20px;
+span {
 	border: 1px solid red;
 }
