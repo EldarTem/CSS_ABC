@@ -2,6 +2,7 @@
     background-color: #dbd3d3;
     color: rgb(76, 69, 164);
 }
-.elem + * {
-    color: red;
-}
+
+#elem ~ li {
+    color: #d105ec;
+ }
