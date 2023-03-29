@@ -7,104 +7,148 @@ body {
     margin: 20px 150px;
  }
 
- .box {
-    height: 50px;
-    width: 50px;
- }
-
- .green {
-    border: 1px solid green;
- }
-
- .red {
-    border: 1px solid red;
- }
-
- .blue {
-    border: 1px solid blue;
- }
-
-
  /*_____________№1_____________*/
- .elem2 {
-    position: absolute;
-    top: 95px;
-    left: 213px;
+ .wrapper1 {
+    position: relative;
+    border: 1px solid green;
+    width: 500px;
+    height: 500px;
  }
 
- .elem3 {
+ .box1 {
     position: absolute;
-    top: 155px;
-    left: 277px;
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 150px;
  }
-
 
  /*_____________№2_____________*/
- .elem4 {
-    position: absolute;
-    top: 300px;
+ .wrapper2 {
+    position: relative;
+    border: 1px solid green;
+    background-color: green;
+    width: 500px;
+    height: 500px;
  }
 
- .elem5 {
+ .box {
     position: absolute;
-    top: 300px;
-    left: 210px;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
  }
 
- .elem6 {
-    position: absolute;
-    top: 300px;
-    left: 271px;
+ .box2 {
+    top: 40px;
+    left: 40px;
+ }
+
+ .box3 {
+    top: 360px;
+    left: 340px;
  }
 
  /*_____________№3_____________*/
-
- .elem7 {
-    position: absolute;
-    top: 430px;
+ .wrapper3 {
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 350px;
  }
 
- .elem8 {
+ .box4 {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
     position: absolute;
-    top: 455px;
-    left: 172px;
+    top: 10px;
+    left: 50px;
  }
 
- .elem9 {
+ .box5 {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
     position: absolute;
-    top: 478px;
-    left: 200px;
+    top: 120px;
+    left: 50px;
+ }
+
+ .box6 {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 230px;
+    left: 50px;
  }
 
  /*_____________№4_____________*/
- .red-bg {
-    border: 1px solid red;
-    background-color: red;
- }
-
- .green-bg {
+ .wrapper4 {
+    position: relative;
     border: 1px solid green;
     background-color: green;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
  }
 
- .blue-bg {
-    border: 1px solid blue;
-    background-color: blue;
- }
-
- .elem10 {
+ .box7 {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
     position: absolute;
-    top: 600px;
+    border-radius: 50%;
+    top: 110px;
+    left: 100px;
  }
 
- .elem11 {
+ .box8 {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
     position: absolute;
-    top: 625px;
-    left: 172px;
+    border-radius: 50%;
+    top: 110px;
+    left: 281px;
  }
 
- .elem12 {
+ .box9 {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
     position: absolute;
-    top: 657px;
-    left: 200px;
+    border-radius: 20px;
+    top: 228px;
+    left: 213px;
+ }
+
+ .box10 {
+    width: 230px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+    top: 338px;
+    left: 132px;
+ }
+
+ /*_____________№5_____________*/
+
+ .box11 {
+    width: 230px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 64%;
+    top: 338px;
+    left: 132px;
  }
