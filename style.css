@@ -2,22 +2,28 @@
     background-color: #dbd3d3;
     color: rgb(76, 69, 164);
 }
+
 .one {
-    width: 300px;
+    width: 200px;
     height: 200px;
-    border-left: 4px solid orange;
-    border-top: 4px solid blue;
-    border-right: 4px solid green;
-    border-bottom: 4px solid red;
+    border: 1px solid green;
+    border-radius: 30px;
+    
 }
-    
-    
+ 
+
 .two {
-width: 300px;
-height: 200px;
-border-left: 3px solid red;
-border-top: 1px solid blue;
-border-right: 3px dotted green;
-border-bottom: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #15bb15;
+    border-radius: 30px;
+    background-color: #15bb15;
 }
-    
+
+ 
+.three {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #15bb15;
+    border-radius: 300px;
+ }
