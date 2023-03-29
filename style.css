@@ -3,25 +3,85 @@
     color: rgb(76, 69, 164);
 }
 
-#parent {
+.parent1  {
+    text-align: center;
+ }
+
+ .child1 {
+    display: inline-block;
+    margin: 0px 5px;
+ }
+
+ 
+ 
+ .parent2 {
+     padding: 10px 0;
+     border: 1px solid red;
+    text-align: right;
+ }
+ .child2 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
+
+
+ 
+
+ .parent3 {
+     padding: 10px 0;
+     border: 1px solid red;
+    text-align: right;
+    padding-right: 20px;
+ }
+ .child3 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
+
+
+ 
+
+ .parent4 {
+     padding: 10px 0;
+     border: 1px solid red;
+    text-align: right;
+ }
+ .child4 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+   margin-right: 20px;
+ }
+
+
+ 
+
+
+ .parent5 {
+    padding: 10px 0;
     border: 1px solid red;
-}
-			
-#elem1 {
-	height: 100px;
-	width: 100px;
-	border: 1px solid green;
-	margin: 10px auto;
-}
-#elem2 {
-	height: 100px;
-	width: 200px;
-	border: 1px solid green;
-	margin: 10px auto;
-}
-#elem3 {
-	height: 100px;
-	width: 300px;
-	border: 1px solid green;
-	margin: 10px auto;
-}
+    text-align: right;
+ }
+ .child5 {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+ }
+  
+
+
+ .parent6 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+ }
+ .child6 {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+ }
